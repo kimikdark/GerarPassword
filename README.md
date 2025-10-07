@@ -1,16 +1,20 @@
-# 🔐 Gerador de Palavras-passe Seguras
 
-Uma pequena aplicação Python com interface Tkinter que gera e salva palavras-passe seguras num ficheiro criptografado.
+---
 
-## Funcionalidades
-- Gera palavras-passe aleatórias com letras, números e símbolos
-- Interface gráfica simples (Tkinter)
-- Guarda de forma segura num arquivo criptografado (.csv)
-- Chave de criptografia gerada automaticamente
+## ⚙️ No PyCharm
 
-## Como usar
-1. Clone o projeto e abra no PyCharm.
-2. Crie um ambiente virtual e instale as dependências:
-   ```bash
-   pip install -r requirements.txt
+1. **Abrir projeto:**
+   - `File > Open...` → seleciona a pasta `gerador_senhas/`.
 
+2. **Configurar o Python Interpreter:**
+   - `File > Settings > Project > Python Interpreter`
+   - Clica em ➕ → “Add New Virtualenv Environment”
+   - Depois instala as dependências:  
+     `pip install -r requirements.txt`
+
+3. **Executar:**
+   - Clica com o botão direito em `main.py` → “Run 'main'”.
+
+---
+
+Queres que eu te monte também a **versão Streamlit**, com a mesma estrutura (interface web)?
