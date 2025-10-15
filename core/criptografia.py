@@ -4,8 +4,8 @@ import os
 # Caminhos fixos
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
-CHAVE_PATH = os.path.join(DATA_DIR, 'chave.key')
-SENHAS_PATH = os.path.join(DATA_DIR, 'senhas.csv')
+CHAVE_PATH = os.path.join(DATA_DIR, 'key.key')
+SENHAS_PATH = os.path.join(DATA_DIR, 'passwords.csv')
 
 def obter_fernet():
 
