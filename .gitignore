@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Data files (sensitive)
+data/*.csv
+data/*.key
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
