@@ -6,7 +6,7 @@ Aplicação Python com interface **Tkinter** que gera senhas aleatórias e as ar
 - Password generation with letters, numbers, and symbols.
 - Simple and intuitive graphical interface.
 - Secure storage in an encrypted `.csv` file.
-- Unique encryption key, automatically generated upon first execution.
+- Unique encryption key automatically generated on first run.
 
 ---
 
@@ -14,7 +14,7 @@ Aplicação Python com interface **Tkinter** que gera senhas aleatórias e as ar
 
 ### 1. Open the Project
 - Open PyCharm or another Python IDE.
-- Go to **`File > Open...`** and select the `gerador_senhas/` folder.
+- Go to **`File > Open...`** and select the `secure_password_generator/` folder.
 
 ### 2. Create and Configure the Virtual Environment
 - In PyCharm:  
@@ -38,8 +38,11 @@ Aplicação Python com interface **Tkinter** que gera senhas aleatórias e as ar
 
 ### Important Notes
 
-- The `chave.key` file is essential for decrypting the passwords. Do not delete it, otherwise the saved passwords will become inaccessible.
-- The content of `senhas.csv` is not readable, as it is encrypted.
+- The file `key.key` is essential to decrypt your stored passwords.
+Do not delete or modify it — otherwise, previously saved passwords will become inaccessible.
+- The file `passwords.csv` contains encrypted data and is not human-readable.
 - Before saving each password, make sure to fill in the Site/App Name field.
+- A future update will include a feature to view and manage saved passwords directly from the interface.
+
 
 
